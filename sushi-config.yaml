@@ -11,8 +11,8 @@ id: my-ig
 canonical: http://example.com/fhir/example
 url: http://example.com/fhir/example
 name: ExampleIG
-title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
-description: Example IG exercises many of the fields in a SUSHI configuration.
+title: "FHIR Test Package"
+description: Example Test package IG.
 status: active
 license: CC0-1.0
 date: 2020-02-26
@@ -59,8 +59,8 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for `uri` and `version`.
-#dependencies:
-#  hl7.fhir.us.core: 3.1.0
+dependencies:
+  hl7.fhir.uv.tools: current
 #  hl7.fhir.us.mcode:
 #    id: mcode
 #    uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
@@ -185,3 +185,19 @@ FSHOnly: false
 # When set to true, the "short" and "definition" field on the root element of an Extension will
 # be set to the "Title" and "Description" of that Extension. Default is true.
 #applyExtensionMetadataToRoot: false
+parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+  logging: progress
+
+  path-binary: 
+# This is used to put .feature files (or others) to FHIR binaries
+    - input/testing/testcases
+
+  path-pages: input/testing/testcases
+# This is used to put .feature files (or others) in the output
+
+  path-test: 
+# this is used to populate the content of the test folder, as is, in the package's tests folder
+    - input/testing/testcases
+
+  produce-jekyll-data: true
+
