@@ -1,0 +1,151 @@
+{
+  "date" : "Tue, 03 Jun, 2025 12:06:58 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-my-ig.json",
+      "size" : 4310,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 29
+        },
+        {
+          "activity" : "scan",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 41,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 381
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 9964
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 77
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 66
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 58,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 60,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/resources/Binary-TestCase1.json",
+      "size" : 1934,
+      "processes" : [
+        {
+          "activity" : "validate",
+          "start" : 52,
+          "length" : 511
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/resources/Binary-TestCase2.json",
+      "size" : 685,
+      "processes" : [
+        {
+          "activity" : "generateNarratives",
+          "start" : 42,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/resources/Binary-TestCase3.json",
+      "size" : 689,
+      "processes" : [
+        {
+          "activity" : "validate",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/resources/Binary-TestCase4.json",
+      "size" : 685,
+      "processes" : [
+        {
+          "activity" : "validate",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:2244e10b-a79e-4d4b-a17e-874080b3ce34",
+            "request": {
+                "method": "PUT",
+                "url": "Patient/example"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "example",
+                "identifier": [
+                    {
+                        "use": "official",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "SB",
+                                    "display": "Social Beneficiary Identifier"
+                                }
+                            ]
+                        },
+                        "value": "79121137740"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "value": "45XXP0PA-4"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "La Paradisio",
+                        "given": [
+                            "Josephine",
+                            "Nessa"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+322476792979",
+                        "use": "mobile"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "+3226718655",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "+322476799",
+                        "use": "work"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1979-12-11",
+                "_birthDate": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+                            "valueDateTime": "1979-12-11T13:28:17-05:00"
+                        }
+                    ]
+                },
+                "address": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/language",
+                                "valueCode": "nl"
+                            }
+                        ],
+                        "use": "home",
+                        "type": "both",
+                        "text": "Sloordelle 42, 1160 Oudergem",
+                        "line": [
+                            "Sloordelle 42"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Sloordelle"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "42"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Oudergem",
+                        "postalCode": "1160",
+                        "country": "BE"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/language",
+                                "valueCode": "fr"
+                            }
+                        ],
+                        "use": "home",
+                        "type": "both",
+                        "text": "42, Allee des Colzas, 1160 Auderghem",
+                        "line": [
+                            "42, Allee des Colzas"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Allee des Colzas"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "42"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Auderghem",
+                        "postalCode": "1160",
+                        "country": "BE"
+                    },
+                    {
+                        "use": "work",
+                        "type": "both",
+                        "text": "377, Avenue Prince d'Orange, 1420 Braine-l\u02bcAlleud",
+                        "line": [
+                            "377, Avenue Prince d'Orange"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Avenue Prince d'Orange"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "377"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Braine-l\u02bcAlleud",
+                        "postalCode": "1420",
+                        "country": "BE"
+                    }
+                ],
+                "maritalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                            "code": "D",
+                            "display": "Divorced"
+                        }
+                    ]
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "N",
+                                        "display": "Next-of-Kin"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": {
+                            "family": "Vogels",
+                            "given": [
+                                "Leia"
+                            ]
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "+31201234567",
+                                "use": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/practitioner"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:11299c64-1301-4f59-9da5-aa5bc4893db6",
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/practitioner"
+            },
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "practitioner",
+                "identifier": [
+                    {
+                        "use": "official",
+                        "value": "79121137740"
+                    },
+                    {
+                        "use": "official",
+                        "value": "18749704477"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Pulaski",
+                        "given": [
+                            "Katherine"
+                        ],
+                        "suffix": [
+                            "MD"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "022675198",
+                        "use": "work"
+                    },
+                    {
+                        "system": "fax",
+                        "value": "022675209",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "text": "Jupiterlaan 5, 1853 Grimbergen",
+                        "line": [
+                            "Jupiterlaan 5"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Jupiterlaan"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "5"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Grimbergen",
+                        "postalCode": "1853",
+                        "country": "BE"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1979-12-11"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:6fcbc20f-88c2-4afc-92dd-f43e28f77e13",
+            "request": {
+                "method": "PUT",
+                "url": "RelatedPerson/relatedperson"
+            },
+            "resource": {
+                "resourceType": "RelatedPerson",
+                "id": "relatedperson",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RelatedPerson</b><a name=\"relatedperson\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RelatedPerson &quot;relatedperson&quot; </p></div><p><b>patient</b>: <a href=\"Patient-example.html\">Patient/example</a> &quot; LA PARADISIO&quot;</p><p><b>relationship</b>: 444301002 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#444301002)</span></p></div>"
+                },
+                "patient": {
+                    "reference": "Patient/example"
+                },
+                "relationship": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "444301002"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

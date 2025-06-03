@@ -1,0 +1,6 @@
+Source File	Size	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-my-ig.json	4310	0	0	0	0	0	0	4	381	0	0	0	0	0	0	0	1	0	0	77	66	0	0	0	3	0	2
+/fsh-generated/resources/Binary-TestCase1.json	1934	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	13	0	0	0	0	0	0
+/fsh-generated/resources/Binary-TestCase2.json	685	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	7	9	0	0	0	0	0	0
+/fsh-generated/resources/Binary-TestCase3.json	689	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	8	0	0	0	0	0	0
+/fsh-generated/resources/Binary-TestCase4.json	685	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	9	0	0	0	0	0	0

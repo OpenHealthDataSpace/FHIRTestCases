@@ -1,0 +1,35 @@
+ExampleIG : Validation Results
+=========================================
+
+err = 10, warn = 5, info = 1
+$--
+Generated $--. FHIR version $-- for my-ig#$-- (canonical = http://example.com/fhir/example)
+ Build Errors : 6 / 5 / 1
+ /github/workspace/fsh-generated/resources/Binary-TestCase1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Binary-TestCase2 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Binary-TestCase3 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Binary-TestCase4 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 4 / 0 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+ERROR: /github/workspace/output/testcase1/docs/server/test-case-1.html: Root node must be 'html' or 'div', but is p
+ERROR: /github/workspace/output/testcase1/docs/server/test-case-2.html: Root node must be 'html' or 'div', but is p
+ERROR: /github/workspace/output/testcase1/docs/client/test-case-1.html: Root node must be 'html' or 'div', but is p
+ERROR: /github/workspace/output/testcase2/test-suite/docs/server/test-case-1.html: Root node must be 'html' or 'div', but is p
+ERROR: /github/workspace/output/testcase2/test-suite/docs/server/test-case-2.html: Root node must be 'html' or 'div', but is p
+ERROR: /github/workspace/output/testcase2/test-suite/docs/client/test-case-1.html: Root node must be 'html' or 'div', but is p
+INFORMATION: /github/workspace/output/testcase1/docs/client/test-case-1.html: The html source does not contain the publish box; this is recommended for publishing support
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Binary-TestCase1.json ==
+== fsh-generated/resources/Binary-TestCase2.json ==
+== fsh-generated/resources/Binary-TestCase3.json ==
+== fsh-generated/resources/Binary-TestCase4.json ==
+== fsh-generated/resources/ImplementationGuide-my-ig.json ==
+ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.com/fhir/example
+ERROR: ImplementationGuide/my-ig: ImplementationGuide.dependsOn[2]: The ImplementationGuide is based on FHIR version 4.0.1 but package hl7.fhir.uv.tools#current is based on FHIR version 5.0.0. Use the package hl7.fhir.uv.tools.r4 instead
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example
